@@ -5,7 +5,9 @@
   "scripts": {
     "scss": "sass --watch scss/main.scss:css/main.css",
     "scssMinify": "sass --watch scss/main.scss:css/main.css --style=compressed",
-    "setting": "sass --watch scss/setting.scss:css/setting.css --style=compressed"
+    "setting": "sass --watch scss/setting.scss:css/setting.css --style=compressed",
+    "xxl": "sass --watch scss/xxl.scss:css/xxl.css --style=compressed",
+    "md": "sass --watch scss/md.scss:css/md.css --style=compressed"
     
   },
   "keywords": [],
