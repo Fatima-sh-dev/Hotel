@@ -107,7 +107,8 @@
 
   .about {
     width: 100%;
-    height: 141vh;
+    height: 140vh;
+    border-bottom: 1px solid #2b2b2b;
     h1 {
       width: 100%;
       height: 130px;
@@ -161,18 +162,28 @@
       display: block;
       object-fit: cover;
     }
-    .photos{
+    .photos {
       height: 100%;
-      .one{
+      .one {
         height: 100%;
-        
         padding: 70px;
         box-sizing: border-box;
         padding-top: 0px;
-        img{
+        img {
           width: 100%;
           object-fit: cover;
-          margin-bottom: 35px;
+          margin-bottom: 30px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 100;
+          line-height: 27px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 17px;
+          font-weight: 100;
+          line-height: 27px;
         }
       }
     }
