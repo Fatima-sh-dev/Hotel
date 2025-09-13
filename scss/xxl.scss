@@ -181,9 +181,46 @@
           margin-bottom: 30px;
         }
         p {
-          font-size: 17px;
+          font-size: 14px;
           font-weight: 100;
           line-height: 27px;
+        }
+      }
+    }
+  }
+
+  .guest {
+    height: 400px;
+    h1 {
+      width: 100%;
+      height: 130px;
+      line-height: 130px;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 100;
+      border-bottom: 1px solid #2b2b2b;
+    }
+    .reviews {
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      .review {
+        width: 33.3%;
+        padding: 20px 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        &:nth-of-type(1),
+         &:nth-of-type(2){
+          border-right: 1px solid #2b2b2b;
+         }
+        p{
+          font-size: 20px;
+          color: #7e7c7c;
+          text-align: center;
+
         }
       }
     }
