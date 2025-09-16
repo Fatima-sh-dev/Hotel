@@ -253,6 +253,11 @@
           height: 50px;
           color: #2b2b2b;
           cursor: pointer;
+          transition: 300ms;
+          &:hover {
+            background-color: #2b2b2b;
+            color: #eec354;
+          }
         }
       }
     }
