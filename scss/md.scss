@@ -216,6 +216,8 @@
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
+      padding: 50px 0 30px 0;
+      box-sizing: border-box;
       .review {
         padding: 20px 50px;
         box-sizing: border-box;
@@ -257,6 +259,9 @@
         box-sizing: border-box;
       }
       .connect {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         text-align: center;
         padding: 20px 0 20px 0;
         box-sizing: border-box;
@@ -265,7 +270,7 @@
           border: unset;
           border: 1px solid #7e7c7c;
           border-radius: 20px;
-          width: 100%;
+          width: 60%;
           height: 50px;
           color: #2b2b2b;
           cursor: pointer;
