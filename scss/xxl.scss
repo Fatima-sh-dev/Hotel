@@ -249,16 +249,23 @@
       height: 50%;
 
       .info {
+        text-align: center;
         height: 100%;
         padding: 0 20px 0 0;
         box-sizing: border-box;
+        
       }
       .privacy {
+
+        text-align: center;
         height: 100%;
         padding: 0 20px 0 0;
         box-sizing: border-box;
       }
       .connect {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         height: 100%;
 
         button {
